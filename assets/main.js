@@ -6,6 +6,8 @@ menu.onclick = () => {
   navbar.classList.toggle('active')
 }
 
+console.log('s')
+
 let section = document.querySelectorAll('section')
 let navlinks = document.querySelectorAll('header .navbar a')
 
