@@ -1,0 +1,621 @@
+
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mc Donald's</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="assets/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+        <link rel="icon" href="assets/images/favico.png" type="image/x-icon" />
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo"><img src="assets/images/logo.png"></a>
+
+            <nav class="navbar">
+                <a class="active" href="#home">home</a>
+                <a href="#dishes">dishes</a>
+                <a href="#about">about</a>
+                <a href="#menu">menu</a>
+                <a href="#review">reviews</a>
+                <a href="#order">order</a>
+            </nav>
+
+            <div class="icons">
+                <i class="fas fa-bars" id="menu-bars"></i>
+                <i class="fas fa-search" id="search-icon"></i>
+                <a class="fas fa-heart"></a>
+                <a class="fas fa-shopping-cart"></a>
+            </div>
+        </header>
+
+        <form action="" id="search-form">
+            <input type="search" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+            <i class="fas fa-times" id="close"></i>
+        </form>
+
+        <section class="home" id="home">
+            <div class="swiper home-slider">
+                <div class="swiper-wrapper wrapper">
+
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>our special dish</span>
+                            <h3>Ultimate Yumburger</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse aliquam culpa et ullam, temporibus libero? Vel eos delectus tempore a nisi quod odio animi.</p>
+                            <a href="#" class="btn">order now</a>
+                        </div>
+                        <div class="image">
+                            <img src="assets/images/home1.avif" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>our special dish</span>
+                            <h3>Bucket of fried chickens</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse aliquam culpa et ullam, temporibus libero? Vel eos delectus tempore a nisi quod odio animi.</p>
+                            <a href="#" class="btn">order now</a>
+                        </div>
+                        <div class="image">
+                            <img src="assets/images/home2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>our special dish</span>
+                            <h3>Mcdonald's french fries</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse aliquam culpa et ullam, temporibus libero? Vel eos delectus tempore a nisi quod odio animi.</p>
+                            <a href="#" class="btn">order now</a>
+                        </div>
+                        <div class="image">
+                            <img src="assets/images/home3.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="dishes" id="dishes">
+            <h3 class="sub-heading">our dishes</h3>
+            <h1 class="heading">popular dishes</h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="assets/images/dish-1.webp" alt="">
+                    <h3>1pc. chicken meal w/fries</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>₱185.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="assets/images/dish-2.png" alt="">
+                    <h3>big mac w/ fries</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>₱292.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="assets/images/dish-3.webp" alt="">
+                    <h3>Spaghetti + chicken w/ fries</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>₱237.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="assets/images/dish-4.webp" alt="">
+                    <h3>6-pc. Chicken McNuggets w/ Rice</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>₱182.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="assets/images/dish-5.webp" alt="">
+                    <h3>2-pc. Mushroom Pepper Steak Rice Bowl Solo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>₱182.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="assets/images/dish-6.webp" alt="">
+                    <h3>BFF Fries</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>₱169.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h3 class="sub-heading">about us</h3>
+            <h1 class="heading">why choose mcdonadld's</h1>
+
+            <div class="row">
+      
+                <div class="image">
+                    <img src="assets/images/about.png" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>Your Top Choice in Countries Worldwide: The Ultimate McDonald's Experience!</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repellendus vero explicabo magni eaque, veniam at fugit dolorum, eos maxime molestiae tempora iusto possimus dignissimos praesentium perspiciatis quo inventore sequi?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius sint error beatae delectus aspernatur, blanditiis iste vel? Quibusdam quo autem odit rem in exercitationem vero, nihil minima impedit a. Consequuntur.</p>
+
+                    <div class="icons-container">
+
+                        <div class="icons">
+                            <i class="fas fa-shipping-fast"></i>
+                            <span>with minimal delivery fee</span>
+                        </div>
+    
+                        <div class="icons">
+                            <i class="fas fa-dollar"></i>
+                            <span>easy payments</span>
+                        </div>
+    
+                        <div class="icons">
+                            <i class="fas fa-headset"></i>
+                            <span>24/7 service</span>
+                        </div>
+                        
+                    </div>
+                    <a href="#" class="btn">learn more</a>
+
+                </div>
+            </div>
+        </section>
+        
+        <section class="menu" id="menu">
+            <h3 class="sub-heading">menu</h3>
+            <h1 class="heading">popular menus</h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/images/menu-1.webp" alt="" srcset="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>McShare Bundle for 4</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A fugit iste.</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">₱809.00</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/images/menu-2.webp" alt="" srcset="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Yumburger w/ Cheese w/ Fries</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A fugit iste.</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">₱267.00</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/images/menu-3.webp" alt="" srcset="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>BFF Shake Shake Fries BBQ</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A fugit iste.</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">₱189.00</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/images/menu-5.webp" alt="" srcset="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>McCafé Iced Coffee Original</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A fugit iste.</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">₱59.00</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/images/menu-4.webp" alt="" srcset="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Hot Caramel Sundae</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A fugit iste.</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">₱53.00</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/images/menu-6.webp" alt="" srcset="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>McCafé Iced Coffee Chocolate</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A fugit iste.</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">₱53.00</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/images/menu-8.webp" alt="" srcset="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Chicken Fillet Ala King w/ Fries</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A fugit iste.</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">₱160.00</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/images/menu-7.webp" alt="" srcset="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>1-pc. Mushroom Pepper Steak w/ Fries</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A fugit iste.</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">₱144.00</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/images/menu-9.webp" alt="" srcset="">
+                        <a href="#" class="fas fa-heart"></a>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Chicken Fillet w/ Fries</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A fugit iste.</p>
+                        <a href="#" class="btn">add to cart</a>
+                        <span class="price">₱178.00</span>
+                    </div>
+                </div>
+   
+            </div>
+        </section>
+
+        <section class="review" id="review">
+            <h3 class="sub-heading">customer's review</h3>
+            <h1 class="heading">what they say</h1>
+
+            <div class="swiper review-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="assets/images/user-1.avif" alt="">
+                            <div class="user-info">
+                                <h3>Jane Doe</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officiis alias reprehenderit provident, vitae officia dolores nobis totam enim adipisci ex velit sed ipsum eum asperiores ab ipsam. Tenetur, delectus.</p>
+
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="assets/images/user-5.avif" alt="">
+                            <div class="user-info">
+                                <h3>Nikki Gorens</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officiis alias reprehenderit provident, vitae officia dolores nobis totam enim adipisci ex velit sed ipsum eum asperiores ab ipsam. Tenetur, delectus.</p>
+
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="assets/images/user-2.avif" alt="">
+                            <div class="user-info">
+                                <h3>Mark Yang</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officiis alias reprehenderit provident, vitae officia dolores nobis totam enim adipisci ex velit sed ipsum eum asperiores ab ipsam. Tenetur, delectus.</p>
+
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="assets/images/user-3.avif" alt="">
+                            <div class="user-info">
+                                <h3>Jack Flin</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officiis alias reprehenderit provident, vitae officia dolores nobis totam enim adipisci ex velit sed ipsum eum asperiores ab ipsam. Tenetur, delectus.</p>
+
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="assets/images/user-4.avif" alt="">
+                            <div class="user-info">
+                                <h3>Anabelle Ross</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis officiis alias reprehenderit provident, vitae officia dolores nobis totam enim adipisci ex velit sed ipsum eum asperiores ab ipsam. Tenetur, delectus.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="order" id="order">
+            <h3 class="sub-heading">order now</h3>
+            <h1 class="heading">free and fast</h1>
+
+            <form action="">
+
+                <div class="input-box">
+                    <div class="input">
+                        <span>your name</span>
+                        <input type="text" placeholder="enter your name">
+                    </div>
+                    <div class="input">
+                        <span>your number</span>
+                        <input type="number" placeholder="09XX-XXXX-XXX">
+                    </div>                   
+                </div>
+
+                <div class="input-box">
+                    <div class="input">
+                        <span>quntity</span>
+                        <input type="text" placeholder="enter the quantity">
+                    </div>
+                    <div class="input">
+                        <span>date and time</span>
+                        <input type="datetime-local">
+                    </div>                   
+                </div>
+
+                <div class="input-box">
+                    <div class="input">
+                        <span>your address</span>
+                        <textarea name="" placeholder="enter your address" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="input">
+                        <span>your message</span>
+                        <textarea name="" placeholder="enter your message" cols="30" rows="10"></textarea>
+                    </div>                   
+                </div>
+
+                <input type="submit" value="order now" class="btn">
+
+            </form>
+
+        </section>
+
+        <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>locations</h3>
+                    <a href="#">America</a>
+                    <a href="#">Australia</a>
+                    <a href="#">Asia</a>
+                    <a href="#">Antartica</a>
+                    <a href="#">Africa</a>
+                    <a href="#">Europe</a>
+                </div>
+
+                <div class="box">
+                    <h3>locations</h3>
+                    <a href="#home">home</a>
+                    <a href="#dishes">dishes</a>
+                    <a href="#about">about</a>
+                    <a href="#menu">menu</a>
+                    <a href="#review">reviews</a>
+                    <a href="#order">order</a>
+                </div>
+
+                <div class="box">
+                    <h3>contact us</h3>
+                    <a href="#">+045-409-3226</a>
+                    <a href="#">+183-302-4256</a>
+                    <a href="#">+093-345-7543</a>
+                    <a href="#">+445-733-9237</a>
+                    <a href="#">+945-127-4442</a>
+                    <a href="#">+145-229-2933</a>
+                </div>
+
+                <div class="box">
+                    <h3>follow us</h3>
+                    <a href="#">facebook</a>
+                    <a href="#">twitter</a>
+                    <a href="#">instagram</a>
+                    <a href="#">linkedin</a>
+                </div>
+
+            </div>
+
+            <div class="credit"> copyright @ 2023 by <span>Joe (Front-end Engineer)</span></div>
+            
+        </section>
+        
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script src="assets/main.js"></script>
+    </body>
+</html>
