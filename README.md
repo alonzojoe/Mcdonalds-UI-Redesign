@@ -47,5 +47,5 @@ Contributions are welcome! If you'd like to contribute to the Mcdonalds UI Redes
 
 ## Contact
 
-For any questions or inquiries, please contact [Your Name](medusazxc123@gmail.com).
+For any questions or inquiries, please contact [Joe](medusazxc123@gmail.com).
 
